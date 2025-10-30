@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "lambda:*",
+        "logs:*",
+        "cloudwatch:*",
+        "s3:*",
+        "rds:Describe*",
+        "rds:Connect",
+        "ec2:Describe*",
+        "cloudformation:Describe*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
